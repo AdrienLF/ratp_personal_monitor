@@ -1,5 +1,5 @@
 # ratp_personal_monitor
-A very small, 100% python project to check when the buses and subways will arrive.
+A very small, 100% python 3 project to check when the buses and subways will arrive.
 
 # Requirements
 This project was written 100% with python. All your need is the last version of remi to be able to use the local web interface. The script prints to the terminal anyway. 
