@@ -1,4 +1,10 @@
+"""RATP_Watch.py: Gets schedule info for transports in Paris. Modify the requested URLs to make it your own.
+If you run it it will print the info, once. For constant update and UI, use RATP-interfaceV2.py"""
+
+__author__      = "Adrien Le Falher"
+
 import requests
+
 
 
 

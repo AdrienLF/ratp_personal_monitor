@@ -1,8 +1,13 @@
+"""RATP-interfacev2.py: Makes a web interface for RATP_Watch. This is the file you want to run."""
+
+__author__      = "Adrien Le Falher"
+
+from threading import Timer
 import RATP_Watch
 import remi.gui as gui
 from remi import start, App
-from time import sleep
-from threading import Timer
+
+
 
 refresh_rate = 30
 
