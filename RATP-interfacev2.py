@@ -17,7 +17,7 @@ class MyApp(App):
 
     def main(self):
 
-        container = gui.VBox(width = 480, height = 320, layout_orientation=gui.Widget.LAYOUT_VERTICAL)
+        container = gui.VBox(width = 480, height = 320, layout_orientation=gui.Widget.LAYOUT_VERTICAL, style={'display': 'block', 'overflow': 'hidden'})
 
         # ---------- LIGNE 12 ----------------
         container_ligne1 = gui.Widget(width='100%', layout_orientation=gui.Widget.LAYOUT_HORIZONTAL, margin='0px', style={'display': 'flex', 'overflow': 'visible'}, )
@@ -123,6 +123,7 @@ class MyApp(App):
 
         velo = str(bike) + ' ' + "vélo disponible"
         electrique = str(ebike) + " " + "ebike disponible"
+
 
         self.nextbus_velib = gui.Label(velo, margin="0px")
         self.lastbus_velib = gui.Label(electrique, margin="00px")
