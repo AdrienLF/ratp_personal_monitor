@@ -1,3 +1,6 @@
+
+![Ratp Personal Monitor on Raspberry Pi](https://i.imgur.com/aUUkFkX.jpg)
+
 # ratp_personal_monitor
 A very small, 100% python 3 project to check when the buses and subways will arrive.
 
